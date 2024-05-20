@@ -1,0 +1,931 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Practicas ITIL | PRACTICAS GESTION DE SERVICIOS</title>
+   <!-- Core theme CSS (includes Bootstrap)-->
+   <link href="../../css/styles.css" rel="stylesheet" />
+   <!-- Core theme JS-->
+   <script src="../../css/js/scripts.js"></script>
+</head>
+
+<body>
+    <!-- Responsive navbar-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <img src="../../img/logo_fesc.png" alt="">
+        <div class="container px-5">
+            <a class="navbar-brand" href="index.html">
+                <h1>Practicas ITIL</h1>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item"><a class="nav-link active" aria-current="page" href="../../index.html">Inicio</a>
+                    </li>
+                    <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+                        <ul class="navbar-nav">
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink"
+                                    role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    / Integrantes del equipo
+                                </a>
+                                <ul class="dropdown-menu dropdown-menu-dark"
+                                    aria-labelledby="navbarDarkDropdownMenuLink">
+                                    <li><a class="dropdown-item" href="../escolaridad/escolaridad.html">Sergio Tenoch
+                                        Estevez Sánchez </a></li>
+                                <li><a class="dropdown-item" href="../escolaridad/escolaridad1.html">Yamas Ramos
+                                        Nataly Guadalupe</a></li>
+                                <li><a class="dropdown-item" href="../escolaridad/escolaridad2.html">Gama Mendez
+                                        Erick</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+                        <ul class="navbar-nav">
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink"
+                                    role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    / Conceptos
+                                </a>
+                                <ul class="dropdown-menu dropdown-menu-dark"
+                                    aria-labelledby="navbarDarkDropdownMenuLink">
+                                    <li><a class="dropdown-item" href="../conceptos/Valor.html">Valor</a></li>
+                                    <li><a class="dropdown-item" href="../conceptos/Cocreacion.html">Co Creación del Valor (Relaciones de Servicio)</a></li>
+                                    <li><a class="dropdown-item" href="../conceptos/Gestion.html">Gestión de Servicios</a></li>
+                                    <li><a class="dropdown-item" href="../conceptos/Organizacion.html">Organización</a></li>
+                                    <li><a class="dropdown-item" href="../conceptos/Cliente.html">Cliente, Usuario y Patrocinador</a></li>
+                                    <li><a class="dropdown-item" href="../conceptos/Productos.html">Productos, Servicios y Recursos</a></li>
+                            
+                                </ul>
+
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+                        <ul class="navbar-nav">
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink"
+                                    role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    / Tema de exposición
+                                </a>
+                                <ul class="dropdown-menu dropdown-menu-dark"
+                                    aria-labelledby="navbarDarkDropdownMenuLink">
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="ITIL.html">
+                                            Practicas ITIL
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="practicas-gestion-general.html">
+                                            Practicas Gestion General
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="practicas-gestion-de-servicios.html">
+                                            Practicas Gestion de Servicios
+                                        </a>
+                                    </li>
+
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Contenido de la pagina-->
+    <div class="container px-4 px-lg-5 mb-4">
+        <!-- Header - informacion principal-->
+        <div class="row gx-4 gx-lg-5 align-items-center my-5">
+            <div class="col-lg-4">
+                <img class="img-fluid rounded mb-4 mb-lg-0" src="../../img/gesion-incidentes.jpg" width="300px"
+                    alt="..." />
+            </div>
+            <div class="col-lg-8">
+                <h1 class="font-weight-light">PRACTICAS GESTION DE SERVICIOS</h1>
+                <h4 class="card-text">
+                    "Incidente se refiere a una interrupción no planificada de un servicio.”
+                </h4>
+            </div>
+        </div>
+        <!-- Informacion-->
+        <div class="card text-white bg-secondary py-4 text-center">
+            <div class="card-header bg-dark">
+                ACTIVIDADES CLAVE DE GESTIÓN DE INCIDENTES </div>
+            <div class="card-body">
+                <div class="text-center">
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">
+                            Registrar y gestionar los incidentes
+                        </li>
+                        <li class="list-group-item">
+                            Acordar, documentar y comunicar los tiempos objetivos de resolucion
+                        </li>
+                        <li class="list-group-item">
+                            Priorizar los incidentes
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+        <div class="card bg-secondary py-4">
+            <div class="container text-center text-white">
+                <h2 class="mb-4">Diseño de práctica de gestión de incidentes</h2>
+            </div>
+            <div class="row text-white m-4">
+                <div class="col-md-4 mt-5 text-center">
+                    <div class="card-text">
+                        <p>
+                            Diseñar la practica de gestion de incidentes para una gestion adecuada y la asignacion de
+                            recursos a diferentes tipos de incidentes
+                        </p>
+                    </div>
+                    <img src="../../img/dis-prac-gest-incide-1.png" class="img-fluid" alt="...">
+                </div>
+                <div class="col-md-4">
+                    <div class="card-text text-center">
+                        <p>
+                            Almacenar información sobre incidentes en los registros de incidentes
+                        </p>
+                        <img src="../../img/dis-prac-gest-incide-2.png" class="img-fluid" alt="...">
+                    </div>
+                </div>
+                <div class="col-md-4 mt-5">
+                    <div class="card-text text-center">
+                        <p>
+                            Proporcionar actualizaciones de buena calidad de los incidentes
+                        </p>
+                        <img src="../../img/dis-prac-gest-incide-3.png" class="img-fluid" alt="...">
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="card bg-secondary py-4">
+            <div class="container text-center text-white">
+                <h2 class="mb-4">Diagnóstico y resolución de Incidentes</h2>
+                <img src="../../img/diag-resol-incide.png" class="img-fluid" alt="">
+            </div>
+        </div>
+        <div class="card text-white bg-secondary py-4 text-center mt-4">
+            <div class="card-header bg-dark">
+                PRACTICA DE GESTION DE PROBLEMAS
+            </div>
+            <div class="card-body">
+                <div class="row mb-4">
+                    <div class="col-md-4">
+                        <img src="../../img/pract-gesti-probl.png" class="img-fluid" alt="">
+                    </div>
+                    <div class="col-md-8">
+                        <h5 class="card-text">
+                            “Problema se refiere a una causa, o causa potencial, de uno o más incidentes”
+                        </h5>
+                        <hr>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">
+                                <h5>Proposito de la gestion de problemas</h5>
+                                <div class="row mt-5">
+                                    <div class="col-md-6">
+                                        Reducir la probabilidad e impactos de los incidentes al identificar las causas
+                                        reales
+                                    </div>
+                                    <div class="col-md-6">
+                                        Gestionar soluciones y errores conocidos
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <hr>
+                <div class="container mt-5 mb-5">
+                    <h4>
+                        ¿Cómo se diferencia el problema del incidente? </h4>
+                    <div class="container">
+                        <table class="table text-white">
+                            <thead class="card-header">
+                                <tr>
+                                    <th>
+                                        Prblemas
+                                    </th>
+
+                                    <th>
+                                        Incidentes
+                                    </th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        Son la causa de los incidentes
+                                    </td>
+                                    <td>
+                                        Tienen un impacto en los usuarios o procesos de negocio
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        Requiere investigación y analisis para identificar las causas, desarrollar
+                                        soluciones y recomendar una resolucion de largo plazo
+                                    </td>
+                                    <td>
+                                        Deben resolver para que la actividad del negocio normal pueda continuar
+                                        funcionando
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <hr>
+                <div class="container mt-5">
+                    <h4>
+                        Fases de Gestión de problemas </h4>
+                    <div class="container mt-5">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <p>
+                                    Identificar y registrar Problemas
+                                </p>
+                                <img src="../../img/fase-gest-proble-1.png" class="img-fluid mt-3" alt="">
+                            </div>
+
+                            <div class="col-md-4">
+                                <p>
+                                    Analizar probelmas.
+                                    Documentar soluciones y errores conocidos
+                                </p>
+                                <img src="../../img/fase-gest-proble-2.png" class="img-fluid" alt="">
+                            </div>
+
+                            <div class="col-md-4">
+                                <p>
+                                    Manejar errores conocidos
+                                </p>
+                                <img src="../../img/fase-gest-proble-3.png" class="img-fluid" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="container mt-5 mb-5">
+                    <h4>
+                        Identificación de problemas
+                    </h4>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <img src="../../img/identificacion-probl.png" class="img-fluid w-50" alt="">
+                        </div>
+                        <div class="col-md-8 container">
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">
+                                    Análisis de tendencias
+                                </li>
+                                <li class="list-group-item">
+                                    Detectar problemas duplicados y recurrentes
+                                </li>
+                                <li class="list-group-item">
+                                    Identificar el riesgo de repetición de incidentes
+                                </li>
+                                <li class="list-group-item">
+                                    Analizar información de proveedores y socios
+                                </li>
+                                <li class="list-group-item">
+                                    Desarrolladores/Calidad/Proyectos
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="container mt-5 mb-5">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h4>
+                                Control de problemas
+                            </h4>
+
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">
+                                    <strong>
+                                        Control de problemas:
+                                    </strong>
+                                    <p>
+                                        Analizar/Soluciones/Prioridad
+                                    </p>
+                                </li>
+                                <li class="list-group-item">
+                                    <strong>
+                                        Priorización según riesgo:
+                                    </strong>
+                                    <p>
+                                        Prioridad/Impacto/Causas
+                                    </p>
+                                </li>
+                                <li class="list-group-item">
+                                    <strong>
+                                        Documentación de soluciones futuras:
+                                    </strong>
+                                    <p>
+                                        Soluciones/Registros/Permanente
+                                    </p>
+                                </li>
+
+                            </ul>
+                        </div>
+                        <div class="col-md-6">
+                            <h4>
+                                Control de errores
+                            </h4>
+
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">
+                                    <strong>
+                                        Gestión de errores conocidos:
+                                    </strong>
+                                    <p>
+                                        Errores/Soluciones/Análisis
+                                    </p>
+                                </li>
+                                <li class="list-group-item">
+                                    <strong>
+                                        Evaluación regular del estado de errores conocidos:
+                                    </strong>
+                                    <p>
+                                        Evaluación/Impacto/Eficacia
+                                    </p>
+                                </li>
+                                <li class="list-group-item">
+                                    <strong>
+                                        Mejora de soluciones temporales:
+                                    </strong>
+                                    <p>
+                                        Soluciones/Evaluación/Mejora
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card text-white bg-secondary py-4 text-center mt-4">
+            <div class="card-header bg-dark">
+                PRACTICA DE CONTROL DE CAMBIOS
+            </div>
+            <div class="card-body">
+                <div class="row mb-4">
+                    <div class="col-md-4">
+                        <img src="../../img/pract-contr-cambio.png" class="img-fluid" alt="">
+                    </div>
+                    <div class="col-md-8 mt-5">
+                        <h5 class="card-text">
+                            “El propósito de la práctica de control de
+                            cambios es maximizar el
+                            número de cambios exitosos de TI al:
+                        </h5>
+                        <p>
+                            -Asegurar que los riesgos hayan sido medidos adecuadamente
+                            <br>
+                            - Autorizar cambios para proceder
+                            <br>
+                            -Gestionando el calendario de cambios”
+                        </p>
+                    </div>
+                </div>
+                <hr>
+                <div class="container mt-5 mb-5">
+                    <h4>
+                        Distinguir el control de cambios y gestion
+                        de cambio organizacional
+                    </h4>
+                    <div class="container">
+                        <table class="table text-white">
+                            <thead class="card-header">
+                                <tr>
+                                    <th>
+                                        Control de Cambios
+                                    </th>
+
+                                    <th>
+                                        Gestión del Cambio Organizacional
+                                    </th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        Se centra en los
+                                        cambios de
+                                        productos y
+                                        servicios
+                                    </td>
+                                    <td>
+                                        Gestiona los
+                                        aspectos de los
+                                        cambios en las
+                                        personas
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        Equilibra la necesidad de realizar
+                                        cambios beneficiosos que brinden
+                                        valor adicional con la necesidad de
+                                        proteger a los clientes y usuarios del
+                                        efecto adverso de los cambios
+                                    </td>
+                                    <td>
+                                        Asegura que las mejoras e iniciativas
+                                        de transformación organizacional se
+                                        implementen con éxito
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <hr>
+                <div class="container mt-5 mb-5">
+                    <h4>
+                        Tipos de Cambios
+                    </h4>
+                    <div class="container">
+                        <table class="table text-white">
+                            <thead class="card-header">
+                                <tr>
+                                    <th>
+                                        Cambios
+                                        estandar
+                                    </th>
+                                    <th>
+                                        Cambios
+                                        Normales
+                                    </th>
+                                    <th>
+                                        Cambios de
+                                        Emergencia
+                                    </th>
+                                </tr>
+                            </thead>
+                        </table>
+                    </div>
+                    <div class="container mt-5 card-header">
+                        <h5>
+                            Autoridad de
+                            Cambio
+                        </h5>
+                        <p>
+                            Todos los cambios son evaluados y
+                            autorizados por las personas que 
+                            comprenden los riesgos y 
+                            benefi cios esperados antes de
+                            implementar los cambios.
+                        </p>
+                        <p>
+                            La persona o grupo que autoriza
+                            un cambio se conoce como una
+                            autoridad de cambio
+                        </p>
+                    </div>
+                    <div class="container mt-5 card-header">
+                        <h5>
+                            Comunicando
+                            cambios
+                        </h5>
+                        <p>
+                            Calendario de
+                            Cambios
+                        </p>
+                        <ul class="list-group">
+                            <li class="list-group">
+                                Ayuda a Planificar Cambios
+                            </li>
+                            <li class="list-group">
+                                Ayuda a la Comunicación
+                            </li>
+                            <li class="list-group">
+                                Evita Conflictos
+                            </li>
+                            <li class="list-group">
+                                Asigna Recursos
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card text-white bg-secondary py-4 text-center mt-4">
+            <div class="card-header bg-dark">
+                LA PRACTICA SERVICE DESK
+            </div>
+            <div class="card-body">
+                <div class="container mt-3 mb-5">
+                    <h4>
+                        Ejemplos de solicitudes de servicio
+                    </h4>
+                    <div class="container mt-3">
+                        <div class="row">
+                            <div class="row col-md-12 mb-2">
+                                <div class="col-md-4 bg-dark card-header">
+                                    Petición de una acción de entrega de servicio
+                                </div>
+                                <div class="col-md-8 card-header">
+                                    Entregar un reporte o reemplazar un toner
+                                </div>
+                            </div>
+                            <div class="row col-md-12 mb-2">
+                                <div class="col-md-4 bg-dark card-header">
+                                    Petición de información
+                                </div>
+                                <div class="col-md-8 card-header">
+                                    Ayuda para crear un documento o saber las horas de servicio
+                                </div>
+                            </div>
+                            <div class="row col-md-12 mb-2">
+                                <div class="col-md-4 bg-dark card-header">
+                                    Petición de la provision de un recurso o servicio
+                                </div>
+                                <div class="col-md-8 card-header">
+                                    Teléfono, laptop o servidor virtual para el equipo de desarrollo
+                                </div>
+                            </div>
+                            <div class="row col-md-12 mb-2">
+                                <div class="col-md-4 bg-dark card-header">
+                                    Petición de acceso a un recurso o servicio
+                                </div>
+                                <div class="col-md-8 card-header">
+                                    Acceso a un archivo o carpeta
+                                </div>
+                            </div>
+                            <div class="row col-md-12 mb-2">
+                                <div class="col-md-4 bg-dark card-header">
+                                    Retroalimentación, felicitaciones o quejas
+                                </div>
+                                <div class="col-md-8 card-header">
+                                    Quejas sobre una nueva interfaz de una aplicacion o felicitaciones al equipo de
+                                    soporte
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="container mt-5 mb-5">
+                    <h4>
+                        Entrega de Solicitudes de Servicio
+                    </h4>
+                    <div class="container">
+                        <div class="row justify-content-center align-items-center">
+                            <div class="col-md-3 mt-1">
+                                <p class="card-header">
+                                    Las solicitudes
+                                    de servicio
+                                    forman una
+                                    parte normal
+                                    de la entrega
+                                    del servicio y
+                                    no una falla
+                                </p>
+                            </div>
+                            <div class="col-md-3 mt-1">
+                                <p class="card-header">
+                                    Algunas
+                                    solicitudes
+                                    son muy
+                                    simples
+                                </p>
+                            </div>
+                            <div class="col-md-3 mt-1">
+                                <p class="card-header">
+                                    Algunas
+                                    solicitudes
+                                    son
+                                    complejas
+                                </p>
+                            </div>
+                            <div class="col-md-3 mt-1">
+                                <p class="card-header">
+                                    Independientem
+                                    ente de la
+                                    complejidad, los
+                                    pasos para
+                                    cumplir con la
+                                    solicitud deben
+                                    ser bien
+                                    conocidos y
+                                    probados
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="container mt-5 mb-5">
+                    <h4>
+                        Guias de gestion de solicitud de servicio
+                    </h4>
+                    <div class="container">
+                        <div class="row justify-content-center align-items-center">
+                            <div class="col-md-2 mt-1">
+                                <p class="card-header">
+                                    Las solicitudes de servicio deben ser estandarizadas y automatizada
+                                </p>
+                                <img src="../../img/guia-gest-soli-serv-1.jpeg" alt="" class="img-fluid">
+                            </div>
+                            <div class="col-md-2 mt-1">
+                                <p class="card-header">
+                                    Se deben establecer políticas
+                                </p>
+                                <img src="../../img/guia-gest-soli-serv-2.jpeg" alt="" class="img-fluid">
+
+                            </div>
+                            <div class="col-md-2 mt-1">
+                                <p class="card-header">
+                                    Las expectativas deben ser claramente establecidas
+                                </p>
+                                <img src="../../img/guia-gest-soli-serv-3.jpeg" alt="" class="img-fluid">
+
+                            </div>
+                            <div class="col-md-2 mt-1">
+                                <p class="card-header">
+                                    Se deben identificar oportunidades de mejora
+                                </p>
+                                <img src="../../img/guia-gest-soli-serv-4.jpeg" alt="" class="img-fluid">
+
+                            </div>
+                            <div class="col-md-2 mt-1">
+                                <p class="card-header">
+                                    Deben incluirse políticas y flujos de trabajo
+                                </p>
+                                <img src="../../img/guia-gest-soli-serv-5.jpeg" alt="" class="img-fluid">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card text-white bg-secondary py-4 text-center mt-4">
+            <div class="card-header bg-dark">
+                PRACTICA DE DE SOLICITUDES DE SERVICIO
+            </div>
+            <div class="card-body">
+                <div class="container mt-3 mb-5">
+                    <img src="../../img/practi-serv-desk.jpeg" class="img-fluid" alt="">
+                    <div class="container mt-3">
+                        <h4>
+                            Actuar como el punto
+                            de contacto para el
+                            proveedor de servicios
+                            junto con sus usuarios.
+                            <br>
+                            Proporcionar una ruta clara para que los
+                            usuarios informen sobre asuntos, 
+                            consultas y solicitudes, y reconozcan, 
+                            clasifi quen, posean y tomen medidas al
+                            respecto.
+                        </h4>
+                    </div>
+                </div>
+                <hr>
+                <div class="container mt-5 mb-5">
+                    <h4>
+                        CANALES DEL SERVICE DESK
+                    </h4>
+                    <table class="table text-white">
+                        <thead class="bg-dark">
+                            <tr>
+                                <th>
+                                    Llamada telefónica
+                                </th>
+                                <th>
+                                    Incluye tecnología especializada como IVR, llamadas en conferencia, reconocimiento
+                                    de voz
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    Portales de servicios y aplicaciones móviles
+                                </td>
+                                <td>
+                                    Soportando por catálogos de servicio y solicitud y bases de conocimientos
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Chat
+                                </td>
+                                <td>
+                                    Chats en vivo y robots para chat
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Correo electronico
+                                </td>
+                                <td>
+                                    Se utiliza para el registro y actualizacion, y para las encuestas y confirmaciones
+                                    de seguimiento
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Service Desk de atencion personalizada
+                                </td>
+                                <td>
+                                    Cada vez es mas frecuente en sectores donde hay altos picos de actividad que exigen
+                                    presencia fisica, como la educacion superior
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Mensajes de texto y redes sociales
+                                </td>
+                                <td>
+                                    Útil para enviar notificaciones en caso de incidencias emportantes, contactar a
+                                    grupos especificos de partes interesadas y permitir a los usuarios solicicar soporte
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Redes sociales publicas y corporativas y foros de discusión
+                                </td>
+                                <td>
+                                    Contacto con el proveedor de servicios y soporte de persona a persona
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <hr>
+                <div class="container mt-5 mb-5">
+                    <h4>
+                        Estructuras de Service Desk
+                    </h4>
+                    <p>
+                        Un Service Desk puede funcionar en una ubicación única o centralizada,
+
+                        lo que requiere varias tecnologías de soporte, tales como:
+                    </p>
+                    <div class="container">
+                        <div class="row justify-content-center align-items-center">
+                            <div class="col-md-2 mt-1">
+                                <p class="card-header">
+                                    Sistemas de telefonía
+                                    inteligente
+                                </p>
+                            </div>
+                            <div class="col-md-2 mt-1">
+                                <p class="card-header">
+                                    Sistemas de flujo de trabajo
+                                    para enrutamiento y
+                                    escalamiento
+                                </p>
+                            </div>
+                            <div class="col-md-2 mt-1">
+                                <p class="card-header">
+                                    Sistemas de gestión de
+                                    recursos humanos y
+                                    planificación de recursos </p>
+                            </div>
+                            <div class="col-md-2 mt-1">
+                                <p class="card-header">
+                                    Bases de conocimiento
+                                </p>
+                            </div>
+                            <div class="col-md-2 mt-1">
+                                <p class="card-header">
+                                    Grabación de
+                                    llamadas y control de
+                                    calidad
+                                </p>
+                            </div>
+                            <div class="col-md-2 mt-1">
+                                <p class="card-header">
+                                    Herramientas de
+                                    acceso remoto
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="container mt-5 mb-5">
+                    <h4>
+                        Personal del
+                        service desk
+                    </h4>
+                    <div class="container">
+                        <div class="row justify-content-center align-items-center">
+                            <div class="col-md-6 mt-1">
+                                <p class="card-header">
+                                    El personal de la mesa de
+                                    servicio requiere
+                                    capacitación y
+                                    competencia en una serie
+                                    de amplias áreas
+                                    técnicas y comerciales
+                                </p>
+                            </div>
+                            <div class="col-md-6 mt-1">
+                                <img src="../../img/Personal-serv-desk.jpeg" class="img-fluid" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="container mt-5 mb-5">
+                    <h4>
+                        PRÁCTICA DE NIVELES DE SERVICIO
+                    </h4>
+                    <div class="container mt-4">
+                        <div class="row justify-content-center align-items-center">
+                            <div class="col-md-6 mt-1">
+                                <h4>
+                                    La práctIca Gestión de Niveles de
+                                    ServIcio (SLM)
+                                </h4>
+                                <p class="card-header">
+
+                                    Establecen objetivos claros basados en el negocio para el desempeño del servicio, de
+                                    modo que la entrega de un servicio pueda evaluarse, monitorearse y administrarse
+                                    adecuadamente en función de estos objetivos”.
+                                </p>
+                            </div>
+                            <div class="col-md-6 mt-1">
+                                <h4>
+                                    Actividades clave de Gestión de
+                                    Niveles de servicio
+                                </h4>
+                                <div class="card-header">
+                                    <p>
+                                        La práctica gestión de nivel de servicio implica la definición, documentación y
+                                        gestión activa de los niveles de servicio.
+                                    </p>
+                                    Proporciona una visibilidad completa de los servicios de la organización. Para ello,
+                                    la
+                                    práctica de gestión de nivel de servicio:
+                                    <p>
+                                        Establece una vista compartida de los servicios y objetivo de niveles de
+                                        servicio
+                                        con
+                                        los clientes
+                                    </p>
+                                    <p>
+                                        Asegura que la organización cumple con los niveles de servicio definidos
+                                    </p>
+                                    <p>
+                                        Realiza revisiones de servicio
+                                    </p>
+                                    <p>
+                                        Captura e informa sobre asuntos de servicio, incluido el rendimiento
+                                        frente a niveles de servicio definidos
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer-->
+    <footer class="py-5 bg-dark" id="footer">
+        <div class="row">
+            <div class="container col-md-4 px-4 px-lg-5 d-flex align-items-center justify-content-center">
+                <p class="m-0 text-center text-white">Copyright &copy; Practicas ITIL 2024</p>
+            </div>
+            <div class="container text-center col-md-8 text-white">
+                <p class="m-0 text-center text-white">
+                    INTEGRANTES DEL EQUIPO:
+                </p>
+                <ul class="list-group">
+                    <li class="list-group-item">
+                        Estevez Sánchez Sergio Tenoch
+                    </li>
+                    <li class="list-group-item">
+                        Gama Mendez Erick</li>
+                    <li class="list-group-item">
+                        Yamas Ramos Nataly Guadalupe
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+  
+</body>
+
+</html>
